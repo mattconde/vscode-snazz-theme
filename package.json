@@ -1,0 +1,39 @@
+{
+  "name": "vscode-snazz-theme",
+  "displayName": "Snazz Theme",
+  "description": "Based on hyper-snazzy and snazzy-operator",
+  "version": "0.1.0",
+  "publisher": "mattconde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattconde/vscode-snazz-theme/issues"
+  },
+  "homepage": "https://github.com/mattconde/vscode-snazz-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattconde/vscode-snazz-theme"
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Snazz Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/snazz-color-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "snazzy",
+    "operator",
+    "operator mono",
+    "snazz theme"
+  ]
+}
